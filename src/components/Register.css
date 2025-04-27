@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap");
+
+.register-container {
+  /* outline: auto; */
+  background-color: #f7f8f9;
+  display: flex;
+  height: 100%;
+  padding: 0px 20px 0 20px;
+  display: flex;
+  flex-direction: column;
+  width: 374px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border-radius: 8px;
+  opacity: 100%;
+  margin: 0;
+}
+
+.register-title {
+  /* outline: auto; */
+  margin-top: 40px;
+  width: 188px;
+  height: 69px;
+  text-align: left;
+  font: normal normal medium 28px/36px Rubik;
+  letter-spacing: 0px;
+  color: #1d2226;
+  opacity: 1;
+}
+
+.register-form {
+  /* outline: auto; */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 335px;
+  height: 651px;
+  font-family: "Rubik", sans-serif;
+  margin-bottom: 30px;
+  box-sizing: border-box;
+}
+
+.register-fieldset {
+  /* outline: auto; */
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  height: 49px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.register-legend {
+  /* outline: auto; */
+  font-size: 13px;
+  color: #6c25ff;
+  font-weight: 400;
+  min-width: 95px;
+  font-family: "Rubik", sans-serif;
+}
+
+.register-input {
+  /* outline: auto; */
+  width: 100%;
+  height: 25px;
+  font-size: 14px;
+  color: #1d2226;
+  border: none;
+  font-family: "Rubik", sans-serif;
+}
+
+.register-error {
+  font-size: 13px;
+  color: #dd4a3d;
+  margin-top: -8px;
+}
+
+.register-label {
+  /* outline: auto; */
+  font-size: 14px;
+  color: #1d2226;
+  font-weight: 400;
+}
+
+.required {
+  color: #dd4a3d;
+}
+
+.register-radio-group {
+  display: flex;
+  gap: 16px;
+}
+
+.register-radio-label {
+  /* outline: auto; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #1d2226;
+}
+
+.register-radio {
+  /* outline: auto; */
+  accent-color: #6c25ff;
+  width: 16px;
+  height: 16px;
+  margin-bottom: 2px;
+}
+
+.register-button-container {
+  margin-top: auto;
+  height: 46px;
+}
+
+.register-button {
+  /* outline: auto; */
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+  padding: 12px;
+  border-radius: 8px;
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: #6c25ff;
+  height: 46px;
+  font-family: "Rubik", sans-serif;
+  font-weight: medium;
+}
+
+.register-button-active {
+  background-color: #6c25ff;
+  font-weight: medium;
+  font-family: "Rubik", sans-serif;
+}
+
+.register-button-active:hover {
+  background-color: #5720d4;
+}
+
+.register-button-disabled {
+  background-color: #d1d5db;
+  cursor: not-allowed;
+}

@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap");
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 374px;
+  height: 100%;
+  padding: 0px 20px 0 20px;
+  box-sizing: border-box;
+  background: #f7f8f9 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.login-title {
+  width: 200px;
+  font-size: 28px;
+  font-weight: 500;
+  color: #1d2226;
+  margin-bottom: 14px;
+  font-family: "Rubik", sans-serif;
+  margin-top: 40px;
+}
+
+.login-description {
+  margin-top: 0;
+  font-size: 18px;
+  color: #1d2226;
+  opacity: 60%;
+  font-family: "Rubik", sans-serif;
+  margin-bottom: 24px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.login-fieldset {
+  border: 1px solid #d1d5db;
+  height: 49px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding: 4px 16px;
+  font-family: "Rubik", sans-serif;
+}
+
+.login-legend {
+  font-size: 13px;
+  color: #6c25ff;
+  width: 98px;
+  font-family: "Rubik", sans-serif;
+}
+
+.login-input {
+  width: 100%;
+  font-size: 14px;
+  color: black;
+  background: #f7f8f9 0% 0% no-repeat padding-box;
+  border: none;
+}
+
+.login-error {
+  font-size: 13px;
+  color: #dd4a3d;
+}
+
+.login-button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+  border-radius: 6px;
+  background-color: #cbcbcb 0% 0% no-repeat padding-box;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: "Rubik", sans-serif;
+}
+
+.login-button-active {
+  background-color: #6c25ff;
+  cursor: pointer;
+}
+
+.login-button-active:hover {
+  background-color: #5a1fd1;
+}
+
+.login-button-disabled {
+  background-color: #cbcbcb;
+  cursor: not-allowed;
+}

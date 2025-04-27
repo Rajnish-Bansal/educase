@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap");
+
+.profile-container {
+  background-color: #f9fafb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 374px;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.profile-title {
+  /* outline: auto; */
+  height: 68px;
+  width: 374px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #1f2937;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  box-sizing: border-box;
+  margin-top: 0;
+  opacity: 100%;
+  margin-bottom: 30px;
+  box-shadow: 0px 3px 6px #00000007;
+}
+
+.profile-card {
+  /* outline: auto; */
+  display: flex;
+  align-items: center;
+  background-color: #f9fafb;
+  padding: 0px 20px 0 18px;
+  width: 374px;
+  height: 76px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+}
+
+.profile-image-container {
+  position: relative;
+  width: 76px;
+  height: 76px;
+}
+
+.profile-image {
+  width: 76px;
+  height: 76px;
+  border-radius: 50%;
+}
+
+.profile-camera-icon {
+  /* outline: auto; */
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 21px;
+  height: 23px;
+  background-color: #6c25ff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.camera-icon {
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.profile-info {
+  margin-left: 16px;
+}
+
+.profile-name {
+  font-size: 15px;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 6px;
+}
+
+.profile-email {
+  margin-top: 0;
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.profile-description {
+  /* outline: auto; */
+  font-size: 14px;
+  color: #1d2226;
+  margin-top: 16px;
+  line-height: 1.6;
+  box-sizing: border-box;
+  padding: 0px 20px 0 18px;
+  text-align: left;
+  font: normal normal normal 14px/22px Rubik;
+  letter-spacing: 0px;
+  text-transform: capitalize;
+  opacity: 1;
+  font-family: "Rubik", sans-serif;
+}
+
+.profile-divider {
+  border-top: 2px dashed #d1d5db;
+  margin-top: 24px;
+  border: 1px dashed #cbcbcb;
+  opacity: 1;
+  width: 375px;
+}
+
+.profile-divider2 {
+  border-top: 2px dashed #d1d5db;
+  margin-top: 439px;
+  border: 1px dashed #cbcbcb;
+  opacity: 1;
+  width: 375px;
+  margin-bottom: 36px;
+}
